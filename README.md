@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Sistema de Acompanhamento de Temperatura em Tempo Real com Alerta via Wi-Fi 
 
 <div align="center">
   <img src="https://img.shields.io/badge/Versão-1.0-blue.svg" alt="Versão 1.0">
