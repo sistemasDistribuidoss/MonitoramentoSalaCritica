@@ -9,11 +9,22 @@
 
 ## Resumo do Trabalho
 
-> **[Insira aqui um breve resumo do projeto, destacando seus objetivos, importância e principais resultados. Apresente o contexto geral e a motivação para que leitores e avaliadores (por exemplo, da Universidade de Stanford) compreendam rapidamente a relevância do trabalho. Tente ser conciso e objetivo, mas traga os aspectos centrais da sua pesquisa ou desenvolvimento.]**
+> **O projeto "Sistema de Acompanhamento de Temperatura em Tempo Real com Alerta via Wi-Fi" tem como objetivo desenvolver um sistema para monitorar a temperatura em salas de sistemas críticos, como data centers e salas de servidores. A importância deste projeto reside na necessidade de manter condições ambientais específicas para evitar falhas ou danos permanentes aos equipamentos. O sistema proposto permite ações preventivas imediatas, minimizando riscos operacionais e custos associados a falhas. A implementação de sensores de temperatura e um sistema de alerta integrado via Wi-Fi garante o controle ambiental, destacando-se pela sua relevância no âmbito ambiental e energético.**
 
 ## Descrição
 
-> **[Forneça uma descrição mais detalhada do seu trabalho. Explique as tecnologias utilizadas, a metodologia aplicada, o processo de desenvolvimento, desafios enfrentados e as soluções adotadas. Caso seja um projeto de software, descreva funcionalidades, requisitos, arquitetura e qualquer informação técnica relevante. Você também pode incluir instruções de instalação, configuração e uso, se desejar.]**
+> **Este trabalho utiliza tecnologias de ponta para desenvolver um sistema de monitoramento de temperatura em tempo real. Os principais componentes tecnológicos incluem:**
+- **Hardware:** O microcontrolador Esp8266 é utilizado para conectar os sensores de temperatura DHT11 e enviar dados via Wi-Fi. Outros componentes incluem um buzzer para alertas sonoros, jumpers para conexões, protoboard para montagem do protótipo e uma fonte de 5V para alimentação.
+- **Software:** O desenvolvimento do software envolve a integração de várias tecnologias, como:
+  - MQTTHedwig: Para comunicação entre dispositivos.
+  - InterSCity e HiveMQ: Plataformas para gerenciamento de dados.
+  - Linguagens de Programação: C e Python são utilizadas para programação dos dispositivos e análise de dados.
+  - Streamlit: Para a criação de uma interface de usuário interativa.
+  - Técnicas de Machine Learning: Aplicadas para a predição da temperatura.
+- **Metodologia:** O projeto segue uma abordagem iterativa, começando pela definição dos requisitos e escolha dos componentes, seguida pela implementação e testes. Desafios enfrentados incluíram a integração dos sensores com o microcontrolador e a configuração da rede Wi-Fi para comunicação eficiente. Soluções adotadas envolveram ajustes no código e melhorias na configuração do hardware.
+- **Funcionalidades:** O sistema permite o monitoramento em tempo real da temperatura, envio de alertas para computadores, e visualização de dados através de um dashboard. A interface de usuário permite a configuração de alertas e monitoramento contínuo.
+
+Este projeto, viável e inovador, contribui significativamente para o controle ambiental em ambientes críticos, oferecendo uma solução eficiente e de baixo custo para a manutenção de condições ideais de operação.
 
 ## Estrutura do Repositório 
 
@@ -23,23 +34,17 @@
 - **`/tests/`**: Scripts de testes. (Opcional)
 - **`/assets/`**: Imagens, ícones e outros recursos estáticos. (Opcional)
 
-Caso seu projeto tenha uma estrutura diferente, sinta-se à vontade para adaptar este tópico.
-
----
-
 ## Autores
 
-- [Autor 1](mailto:1@discente.ufma.br)  
-- [Autor 2](mailto:2@discente.ufma.br)  
-- [Autor 3](mailto:3@discente.ufma.br)  
-- [Autor 4](mailto:4@discente.ufma.br)
+- [Fernanda Sousa de Assunção Vale](fernanda.sav@discente.ufma.br)  
+- [Vitor Ferreira Nunes](vitornunes5@hotmail.com)  
 
 ---
 
 ## Agradecimentos
 
 - **Universidade Federal do Maranhão (UFMA)**  
-- **Professor Doutor Thales Levi Azevedo Valente**  
+- **Professor Mestre Luiz Henrique Neves Rodrigues**  
 - **Colegas de curso**
 
 Agradecemos a todas as pessoas e instituições que contribuíram para a realização deste trabalho.
@@ -57,7 +62,7 @@ Agradecemos a todas as pessoas e instituições que contribuíram para a realiza
 
 ## Copyright / License
 
-Este material é resultado de um trabalho acadêmico para a disciplina **XXXXXXXXXXX**, sob a orientação do professor **Dr. THALES LEVI AZEVEDO VALENTE**, no semestre letivo **202X.X**, do curso de **Engenharia da Computação** na Universidade Federal do Maranhão (**UFMA**).
+Este material é resultado de um trabalho acadêmico para a disciplina **XXXXXXXXXXX**, sob a orientação do professor **Me. Luiz Henrique Neves Rodrigues**, no semestre letivo **2025.1**, do curso de **Engenharia da Computação** na Universidade Federal do Maranhão (**UFMA**).
 
 Todo o material sob esta licença é **software livre**: pode ser usado para fins acadêmicos e comerciais **sem nenhum custo**. Não há papelada, nem royalties, nem restrições de “copyleft” do tipo GNU. Ele é licenciado sob os termos da **Licença MIT**, reproduzida abaixo, e, portanto, é compatível com a GPL e também se qualifica como software de código aberto. É de domínio público. O espírito desta licença é que você é livre para usar este material para qualquer finalidade, sem nenhum custo. O único requisito é que, se você usá-lo, nos dê crédito.
 
