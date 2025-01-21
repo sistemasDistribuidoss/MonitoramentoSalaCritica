@@ -29,7 +29,7 @@ Este projeto, viável e inovador, contribui significativamente para o controle a
 ## Estrutura do Repositório 
 
 - **`/apresentacoes/`**: Apresentações relacionadas ao projeto (slides, vídeos, PDFs).
-- **`/docs/`**: Documentações adicionais (diagramas, relatórios, manuais).
+- **`/docs/`**: Documentações adicionais (cronograma).
 - **`/src/`**: Código-fonte principal.
 - **`/tests/`**: Scripts de testes. (Opcional)
 - **`/assets/`**: Imagens, ícones e outros recursos estáticos. (Opcional)
@@ -48,15 +48,6 @@ Este projeto, viável e inovador, contribui significativamente para o controle a
 - **Colegas de curso**
 
 Agradecemos a todas as pessoas e instituições que contribuíram para a realização deste trabalho.
-
----
-
-## Outros Repositórios
-
-> **[Liste aqui os links para outros repositórios que fazem parte do seu portfólio ou que complementam este projeto. Exemplo:]**
-
-- [Link para outro projeto no Git](https://github.com/usuario/outro-projeto)
-- [Link para documentação complementar](https://github.com/usuario/documentacao)
 
 ---
 
