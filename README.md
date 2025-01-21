@@ -31,8 +31,6 @@ Este projeto, viável e inovador, contribui significativamente para o controle a
 - **`/apresentacoes/`**: Apresentações relacionadas ao projeto (slides, vídeos, PDFs).
 - **`/docs/`**: Documentações adicionais (cronograma).
 - **`/src/`**: Código-fonte principal.
-- **`/tests/`**: Scripts de testes. (Opcional)
-- **`/assets/`**: Imagens, ícones e outros recursos estáticos. (Opcional)
 
 ## Autores
 
