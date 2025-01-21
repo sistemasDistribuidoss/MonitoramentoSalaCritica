@@ -35,7 +35,8 @@ Este projeto, viável e inovador, contribui significativamente para o controle a
 ## Autores
 
 - [Fernanda Sousa de Assunção Vale](fernanda.sav@discente.ufma.br)  
-- [Vitor Ferreira Nunes](vitornunes5@hotmail.com)  
+- [Vitor Ferreira Nunes](vitornunes5@hotmail.com)
+- Leonardo Victor dos Santos Sá Menez(leonnardo.victor21@gmail.com)  
 
 ---
 
